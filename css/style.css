@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    font-family: montserrat;
+}
+
+#team {
+    padding: 30px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: 23%;
+    position: relative;
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: black;
+    text-align: ;
+    position: relative;
+    margin-top: 14%;
+    margin-left: 10%;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.btn a {
+    color: black;
+    background-color: #FFFFFf;
+}
+
+.header-buttons a {
+    border-radius: 100px;
+    border: 1px solid black;
+    color: #FFFFFf;
+    margin: 5px 5px;
+    padding: 12px 35px;
+    background-color: #FFA62B;
+}
+
+.service {
+    background-color: #FAFAFA;
+    margin: 10px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.page-btn h6 {
+    top: 20%;
+}
+
+.client {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/our_client.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    position: relative;
+}
+
+.client-section {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: ;
+    position: relative;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.client-section p {
+    color: black;
+}
+
+.client-section small {
+    color: #FAFAFA;
+}
+
+.rating .fa {
+    color: #F3CD03;
+}
+
+.row {
+    padding: 30px;
+    margin-right: 75px;
+}
+
+.col-md-4 {
+    background-color: #FFFFFf;
+    flex-basis: 30%;
+    min-width: 200px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.team {
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+}
+.team_section h2 {
+    font-weight: bold;
+}
+.team_section {
+    margin: 30px 20px;
+    padding-left: 25px;
+}
+.row_2 {
+    padding: 10px;
+    margin: 40px 80px;
+    display: flex;
+}
+.col-md-3 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    background-color: #FAFAFA;
+}
+.section_2 {
+    background-color: #35363A;
+    height: 450px;
+}
+.form {
+    margin: 20px 30px;
+}
+.page-footer {
+    margin: 15% 0;
+}
+.col-md-2 ul li a {
+    color: white;
+}
+.profile {
+    margin-left: 15px;
+    padding-top: 8px;
+}
